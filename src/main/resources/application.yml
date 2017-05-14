@@ -1,0 +1,7 @@
+
+
+spring:
+  application:
+    name: enjoy
+server:
+  port: 20171
