@@ -10,6 +10,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>gemini-scheduler</module>
+		<module>gemini-webcrawler</module>
 	</modules>
 
 	<parent>
@@ -17,6 +18,7 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.2.RELEASE</version>
 	</parent>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -28,6 +30,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -54,6 +57,8 @@
 			<id>maven-aliyun</id>
 			<name>maven-aliyun</name>
 			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<releases><enabled>true</enabled></releases>
+			<snapshots><enabled>false</enabled></snapshots>
 		</repository>
 	</repositories>
 	<!-- 设定插件仓库 -->
@@ -62,6 +67,8 @@
 			<id>maven-aliyun</id>
 			<name>maven-aliyun</name>
 			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<releases><enabled>true</enabled></releases>
+			<snapshots><enabled>false</enabled></snapshots>
 		</pluginRepository>
 
 	</pluginRepositories>
