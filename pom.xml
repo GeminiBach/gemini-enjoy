@@ -64,7 +64,7 @@
 
 
 	<!-- 设定主仓库，按设定顺序进行查找-->
-	<!--<repositories>
+	<repositories>
 		<repository>
 			<id>maven-aliyun</id>
 			<name>maven-aliyun</name>
@@ -73,7 +73,7 @@
 			<snapshots><enabled>false</enabled></snapshots>
 		</repository>
 	</repositories>
-	&lt;!&ndash; 设定插件仓库 &ndash;&gt;
+	<!-- 设定插件仓库 -->
 	<pluginRepositories>
 		<pluginRepository>
 			<id>maven-aliyun</id>
@@ -83,7 +83,7 @@
 			<snapshots><enabled>false</enabled></snapshots>
 		</pluginRepository>
 
-	</pluginRepositories>-->
+	</pluginRepositories>
 
 
 </project>
