@@ -1,29 +1,29 @@
 package com.gemini.webapi.controller;
 
-import com.gemini.scheduler.service.ScheduleService;
-import com.gemini.crawler.service.CrawlerService;
-import org.springframework.beans.factory.annotation.Autowired;
+//import com.gemini.scheduler.service.ScheduleService;
+//import com.gemini.crawler.service.CrawlerService;
+//import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
 public class JoinController {
 
-    @Autowired
-    private ScheduleService scheduleService;
-    @Autowired
-    private CrawlerService crawlerService;
+//    @Autowired
+//    private ScheduleService scheduleService;
+//    @Autowired
+//    private CrawlerService crawlerService;
 
     @RequestMapping("")
-    public String index(Model model, @RequestParam("hello") String hello){
+    public ModelAndView index(){
 
-        scheduleService.loadSchecule();
-        crawlerService.loadCrawler();
-        model.addAttribute("hello","Hello ervice!");
-        return "index";
+//        scheduleService.loadSchecule();
+//        crawlerService.loadCrawler();
+
+        //return "index";
+        return new ModelAndView("redirect:/join/index.html");
     }
 
 }

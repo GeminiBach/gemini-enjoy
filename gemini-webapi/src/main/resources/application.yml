@@ -2,11 +2,11 @@
 
 spring:
   application:
-    name: webcrawler
+    name: webapi
   freemarker:
     template-loader-path: classpath:/templates/
     suffix: .ftl
     content-type: text/html;charset=UTF-8
 
 server:
-  port: 20173
+  port: 20171
