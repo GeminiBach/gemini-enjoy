@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gemini-crawler/gemini-webcrawler.iml" filepath="$PROJECT_DIR$/gemini-crawler/gemini-webcrawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gemini-enjoy.iml" filepath="$PROJECT_DIR$/gemini-enjoy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gemini-scheduler/gemini-scheduler.iml" filepath="$PROJECT_DIR$/gemini-scheduler/gemini-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gemini-webapi/gemini-webapi.iml" filepath="$PROJECT_DIR$/gemini-webapi/gemini-webapi.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gemini-webapi:war">
+    <output-path>$PROJECT_DIR$/gemini-webapi/target</output-path>
+    <root id="archive" name="gemini-enjoy.war">
+      <element id="artifact" artifact-name="gemini-webapi:war exploded" />
+    </root>
+  </artifact>
+</component>
